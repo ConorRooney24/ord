@@ -1,5 +1,5 @@
-#ord
+# ord
 Data structure implementations in C.
 
-#todo
+# todo
 - Add functions for working with vectors
