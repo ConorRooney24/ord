@@ -1,4 +1,4 @@
-#include "../include/ord.h"
+#include <ord/vec3.h>
 #include <stdio.h>
 
 int main(void)
