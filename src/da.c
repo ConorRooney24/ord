@@ -90,3 +90,6 @@ ORD_DA_IMPL(uint64_t, da_u64)
 
 ORD_DA_IMPL(float, da_f)
 ORD_DA_IMPL(double, da_d)
+
+ORD_DA_IMPL(char, da_c)
+ORD_DA_IMPL(char*, da_s)

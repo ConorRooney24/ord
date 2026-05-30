@@ -34,4 +34,7 @@ ORD_DA_DECL(uint64_t, da_u64)
 ORD_DA_DECL(float, da_f)
 ORD_DA_DECL(double, da_d)
 
+ORD_DA_DECL(char, da_c)
+ORD_DA_DECL(char*, da_s)
+
 #endif

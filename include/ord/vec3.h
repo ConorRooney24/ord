@@ -23,4 +23,7 @@ ORD_VEC3_DECL(uint64_t, Vec3_u64)
 ORD_VEC3_DECL(float, Vec3_f)
 ORD_VEC3_DECL(double, Vec3_d)
 
+ORD_VEC3_DECL(char, Vec2_c)
+ORD_VEC3_DECL(char*, Vec2_s)
+
 #endif

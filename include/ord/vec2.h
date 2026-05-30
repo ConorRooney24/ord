@@ -23,4 +23,7 @@ ORD_VEC2_DECL(uint64_t, Vec2_u64)
 ORD_VEC2_DECL(float, Vec2_f)
 ORD_VEC2_DECL(double, Vec2_d)
 
+ORD_VEC2_DECL(char, Vec2_c)
+ORD_VEC2_DECL(char*, Vec2_s)
+
 #endif
