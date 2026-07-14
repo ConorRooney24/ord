@@ -76,20 +76,3 @@ void Name##_remove(Name *da, size_t index)                                      
     memmove(&da->data[index], &da->data[index + 1], (da->count - index - 1) * sizeof(T)); \
     da->count--;                                                                          \
 }
-
-ORD_DA_IMPL(int, da_i)
-ORD_DA_IMPL(int8_t, da_i8)
-ORD_DA_IMPL(int16_t, da_i16)
-ORD_DA_IMPL(int32_t, da_i32)
-ORD_DA_IMPL(int64_t, da_i64)
-
-ORD_DA_IMPL(uint8_t, da_u8)
-ORD_DA_IMPL(uint16_t, da_u16)
-ORD_DA_IMPL(uint32_t, da_u32)
-ORD_DA_IMPL(uint64_t, da_u64)
-
-ORD_DA_IMPL(float, da_f)
-ORD_DA_IMPL(double, da_d)
-
-ORD_DA_IMPL(char, da_c)
-ORD_DA_IMPL(char*, da_s)

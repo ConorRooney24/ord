@@ -9,21 +9,4 @@ typedef struct Name            \
     T x, y;                    \
 } Name;                        \
 
-ORD_VEC2_DECL(int, Vec2_i)
-ORD_VEC2_DECL(int8_t, Vec2_i8)
-ORD_VEC2_DECL(int16_t, Vec2_i16)
-ORD_VEC2_DECL(int32_t, Vec2_i32)
-ORD_VEC2_DECL(int64_t, Vec2_i64)
-
-ORD_VEC2_DECL(uint8_t, Vec2_u8)
-ORD_VEC2_DECL(uint16_t, Vec2_u16)
-ORD_VEC2_DECL(uint32_t, Vec2_u32)
-ORD_VEC2_DECL(uint64_t, Vec2_u64)
-
-ORD_VEC2_DECL(float, Vec2_f)
-ORD_VEC2_DECL(double, Vec2_d)
-
-ORD_VEC2_DECL(char, Vec2_c)
-ORD_VEC2_DECL(char*, Vec2_s)
-
 #endif
