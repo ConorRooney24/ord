@@ -1,7 +1,7 @@
 #include <ord/vec2.h>
 #include <stdio.h>
 
-ORD_VEC2_DECL(float, Vec2_f)
+ORD_VEC2_INIT(float, Vec2_f)
 
 int main(void)
 {

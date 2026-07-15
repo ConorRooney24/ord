@@ -1,7 +1,7 @@
 #include <ord/vec3.h>
 #include <stdio.h>
 
-ORD_VEC3_DECL(float, Vec3_f)
+ORD_VEC3_INIT(float, Vec3_f)
 
 int main(void)
 {
