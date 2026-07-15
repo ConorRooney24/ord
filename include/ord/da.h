@@ -47,9 +47,9 @@ void Name##_push(Name *da, T value)                                             
                                                                                           \
     if (da->count == da->capacity)                                                        \
     {                                                                                     \
-    }                                                                                     \
         size_t new_cap = da->capacity ? da->capacity * 2 : 1;                             \
         Name##_reserve(da, new_cap);                                                      \
+    }                                                                                     \
                                                                                           \
     da->data[da->count++] = value;                                                        \
 }                                                                                         \
